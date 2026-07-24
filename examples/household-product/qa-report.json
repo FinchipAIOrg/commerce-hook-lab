@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "summary": {
+    "errors": 0,
+    "warnings": 0,
+    "facts": 7,
+    "hooks": 12,
+    "production_packs": 3
+  },
+  "issues": [],
+  "limitations": [
+    "A passing report does not predict creative performance.",
+    "A passing report does not establish legal or platform-policy approval.",
+    "Editorial scores and audience assumptions still require human judgment."
+  ]
+}

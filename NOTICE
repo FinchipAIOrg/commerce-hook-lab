@@ -1,0 +1,18 @@
+Commerce Hook Lab is an original workflow for producing traceable commerce
+hooks, production packs, AI-video prompts, and controlled creative tests.
+
+Design research considered the following independently licensed projects:
+
+- motion-creative/skills (MIT): hook-writing, hook tactics, and UGC workflow
+  concepts.
+- Beerspitnight/cc-skills (MIT): short-form scripting and anti-generic-copy
+  concepts.
+- MapleShaw/seedance2.0-prompt-skill (MIT): Seedance reference and timing
+  workflow concepts.
+- aicontentskills/ai-video-storyboard-skill: multi-shot planning and visual
+  consistency concepts. Its repository did not expose a root LICENSE during
+  the July 2026 review, so no source code or text was copied.
+
+No upstream source code or prose is included. Product truth traceability,
+three-channel hook separation, deterministic validation, controlled test
+design, and the manifest contract were written for this project.

@@ -1,0 +1,619 @@
+{
+  "schema_version": "1.0",
+  "run": {
+    "mode": "lab",
+    "language": "en",
+    "created_at": "2026-07-25"
+  },
+  "product": {
+    "name": "Reusable Fabric Sweeper",
+    "category": "household cleaning",
+    "source_rights": "owned",
+    "source_summary": "Owned seller brief and observable product demonstration notes; no reviews, offer, competitor footage, or performance metrics supplied."
+  },
+  "audience": {
+    "persona": "Pet owners with dark fabric furniture",
+    "context": "They notice visible loose hair while preparing the room for guests.",
+    "pain": "Loose pet hair makes a recently cleaned room look unfinished.",
+    "desire": "A reusable, easy-to-empty tool for routine touch-ups.",
+    "awareness_stage": "problem-aware",
+    "is_inferred": false
+  },
+  "objective": {
+    "platform": "TikTok Shop",
+    "aspect_ratio": "9:16",
+    "duration_seconds": 15,
+    "goal": "hold"
+  },
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "feature",
+      "statement": "The handheld manual tool gathers visible loose pet hair from woven fabric during the seller's demonstration.",
+      "source_locator": "Owned product brief, observable product facts, bullet 1",
+      "status": "verified",
+      "visual_proof": "One continuous real-footage pass over a dark woven cushion.",
+      "requires_human_review": false,
+      "required_companion_ids": [
+        "R01"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "mechanism",
+      "statement": "Collected hair moves into an internal chamber.",
+      "source_locator": "Owned product brief, observable product facts, bullet 2",
+      "status": "verified",
+      "visual_proof": "Open the chamber after the pass and show the collected hair.",
+      "requires_human_review": false,
+      "required_companion_ids": []
+    },
+    {
+      "id": "F03",
+      "kind": "feature",
+      "statement": "The tool uses no disposable adhesive sheets.",
+      "source_locator": "Owned product brief, observable product facts, bullet 4",
+      "status": "verified",
+      "visual_proof": "Place an empty disposable roll beside the reusable tool without making universal superiority claims.",
+      "requires_human_review": false,
+      "required_companion_ids": []
+    },
+    {
+      "id": "F04",
+      "kind": "usage",
+      "statement": "The tool can be used again after the chamber is emptied.",
+      "source_locator": "Owned product brief, observable product facts, bullet 5",
+      "status": "verified",
+      "visual_proof": "Empty the chamber and begin a second real pass.",
+      "requires_human_review": false,
+      "required_companion_ids": []
+    },
+    {
+      "id": "F05",
+      "kind": "mechanism",
+      "statement": "The chamber opens so the collected hair can be removed.",
+      "source_locator": "Owned product brief, observable product facts, bullet 3",
+      "status": "verified",
+      "visual_proof": "Close macro shot of the chamber opening.",
+      "requires_human_review": false,
+      "required_companion_ids": []
+    },
+    {
+      "id": "R01",
+      "kind": "restriction",
+      "statement": "Do not claim that one pass removes all hair or that the tool works on every fabric.",
+      "source_locator": "Owned product brief, limitations, bullets 1-2",
+      "status": "verified",
+      "visual_proof": "Keep the real surface visible and use qualified language.",
+      "requires_human_review": false,
+      "required_companion_ids": []
+    },
+    {
+      "id": "R02",
+      "kind": "restriction",
+      "statement": "Do not use an AI-generated cleaning result as product proof.",
+      "source_locator": "Owned product brief, limitations, bullet 3",
+      "status": "prohibited",
+      "visual_proof": "Use owned real footage for every performance claim.",
+      "requires_human_review": true,
+      "required_companion_ids": []
+    }
+  ],
+  "hooks": [
+    {
+      "id": "H01",
+      "angle": "visual-proof",
+      "archetype": "direct demonstration",
+      "spoken": "This cushion only looks clean.",
+      "visual": "One real pass across a dark woven cushion reveals a line of visible loose hair.",
+      "text_overlay": "The hidden layer",
+      "supporting_fact_ids": [
+        "F01",
+        "R01"
+      ],
+      "proof_plan": "Use one continuous owned real-footage pass and keep the actual surface visible.",
+      "risk_flags": [],
+      "human_review_required": false,
+      "scores": {
+        "product_relevance": 5,
+        "audience_fit": 5,
+        "first_frame_clarity": 5,
+        "curiosity": 4,
+        "proofability": 5,
+        "feed_native": 5,
+        "model_feasibility": 4,
+        "distinctness": 5
+      },
+      "readiness_score": 4.8,
+      "decision": "advance"
+    },
+    {
+      "id": "H02",
+      "angle": "pain-moment",
+      "archetype": "mid-action cold open",
+      "spoken": "Guests are ten minutes away.",
+      "visual": "A doorbell alert appears as the creator notices loose hair across a dark sofa.",
+      "text_overlay": "Last-minute sofa check",
+      "supporting_fact_ids": [
+        "F01",
+        "R01"
+      ],
+      "proof_plan": "Use the guest-arrival setup only as context, then show the real product demonstration.",
+      "risk_flags": [],
+      "human_review_required": false,
+      "scores": {
+        "product_relevance": 4,
+        "audience_fit": 5,
+        "first_frame_clarity": 4,
+        "curiosity": 4,
+        "proofability": 4,
+        "feed_native": 5,
+        "model_feasibility": 5,
+        "distinctness": 4
+      },
+      "readiness_score": 4.4,
+      "decision": "revise"
+    },
+    {
+      "id": "H03",
+      "angle": "mechanism",
+      "archetype": "open loop",
+      "spoken": "Watch where the loose hair goes.",
+      "visual": "A macro tracking shot follows loose hair gathering at the tool edge.",
+      "text_overlay": "Follow the hair",
+      "supporting_fact_ids": [
+        "F01",
+        "F02",
+        "F05",
+        "R01"
+      ],
+      "proof_plan": "Continue the pass without a hidden cut and open the real chamber on camera.",
+      "risk_flags": [],
+      "human_review_required": false,
+      "scores": {
+        "product_relevance": 5,
+        "audience_fit": 4,
+        "first_frame_clarity": 5,
+        "curiosity": 4,
+        "proofability": 5,
+        "feed_native": 4,
+        "model_feasibility": 5,
+        "distinctness": 5
+      },
+      "readiness_score": 4.6,
+      "decision": "advance"
+    },
+    {
+      "id": "H04",
+      "angle": "identity-callout",
+      "archetype": "specific question",
+      "spoken": "Dark sofa and a light-haired pet?",
+      "visual": "A split frame connects the pet's coat with visible loose hair on the cushion.",
+      "text_overlay": "Pet-owner contrast",
+      "supporting_fact_ids": [
+        "F01",
+        "R01"
+      ],
+      "proof_plan": "Use an owned pet image or film a generic pet context, then transition to real product footage.",
+      "risk_flags": [
+        "likeness-or-voice"
+      ],
+      "human_review_required": true,
+      "scores": {
+        "product_relevance": 4,
+        "audience_fit": 5,
+        "first_frame_clarity": 4,
+        "curiosity": 3,
+        "proofability": 4,
+        "feed_native": 4,
+        "model_feasibility": 4,
+        "distinctness": 4
+      },
+      "readiness_score": 4.0,
+      "decision": "revise"
+    },
+    {
+      "id": "H05",
+      "angle": "routine",
+      "archetype": "mid-action cold open",
+      "spoken": "My doorbell triggered this cleanup.",
+      "visual": "A hand reaches for the sweeper immediately after a doorbell chime.",
+      "text_overlay": "Before they sit down",
+      "supporting_fact_ids": [
+        "F01",
+        "R01"
+      ],
+      "proof_plan": "Keep the setup brief and use the real product for the cleaning action.",
+      "risk_flags": [],
+      "human_review_required": false,
+      "scores": {
+        "product_relevance": 4,
+        "audience_fit": 4,
+        "first_frame_clarity": 4,
+        "curiosity": 4,
+        "proofability": 4,
+        "feed_native": 5,
+        "model_feasibility": 5,
+        "distinctness": 4
+      },
+      "readiness_score": 4.2,
+      "decision": "revise"
+    },
+    {
+      "id": "H06",
+      "angle": "objection-reversal",
+      "archetype": "workflow comparison",
+      "spoken": "No fresh lint sheet this time.",
+      "visual": "An empty disposable lint roll slides aside as the reusable tool enters frame.",
+      "text_overlay": "Use it again",
+      "supporting_fact_ids": [
+        "F03",
+        "F04",
+        "F05"
+      ],
+      "proof_plan": "Show the real empty-and-reuse routine without naming a competitor or claiming universal superiority.",
+      "risk_flags": [
+        "comparison"
+      ],
+      "human_review_required": true,
+      "scores": {
+        "product_relevance": 5,
+        "audience_fit": 4,
+        "first_frame_clarity": 5,
+        "curiosity": 4,
+        "proofability": 5,
+        "feed_native": 5,
+        "model_feasibility": 5,
+        "distinctness": 5
+      },
+      "readiness_score": 4.8,
+      "decision": "advance"
+    },
+    {
+      "id": "H07",
+      "angle": "manual-friction",
+      "archetype": "specific question",
+      "spoken": "Still picking loose hair off by hand?",
+      "visual": "Fingers lift a few visible hairs before the sweeper enters the same frame.",
+      "text_overlay": "There is another motion",
+      "supporting_fact_ids": [
+        "F01",
+        "R01"
+      ],
+      "proof_plan": "Show only observable manual effort, then demonstrate the real tool without time-saving claims.",
+      "risk_flags": [],
+      "human_review_required": false,
+      "scores": {
+        "product_relevance": 4,
+        "audience_fit": 4,
+        "first_frame_clarity": 4,
+        "curiosity": 3,
+        "proofability": 4,
+        "feed_native": 4,
+        "model_feasibility": 5,
+        "distinctness": 4
+      },
+      "readiness_score": 4.0,
+      "decision": "revise"
+    },
+    {
+      "id": "H08",
+      "angle": "unboxing-or-reveal",
+      "archetype": "product reveal",
+      "spoken": "The useful part is inside.",
+      "visual": "The internal chamber opens after a real cleaning pass.",
+      "text_overlay": "Open the chamber",
+      "supporting_fact_ids": [
+        "F02",
+        "F05"
+      ],
+      "proof_plan": "Open the real product chamber in macro view and show only the actual collected material.",
+      "risk_flags": [],
+      "human_review_required": false,
+      "scores": {
+        "product_relevance": 4,
+        "audience_fit": 3,
+        "first_frame_clarity": 4,
+        "curiosity": 4,
+        "proofability": 5,
+        "feed_native": 4,
+        "model_feasibility": 5,
+        "distinctness": 4
+      },
+      "readiness_score": 4.1,
+      "decision": "revise"
+    },
+    {
+      "id": "H09",
+      "angle": "reset-routine",
+      "archetype": "action sequence",
+      "spoken": "Empty it, then start again.",
+      "visual": "Collected hair drops from the chamber before a second real pass begins.",
+      "text_overlay": "Ready for another pass",
+      "supporting_fact_ids": [
+        "F04",
+        "F05"
+      ],
+      "proof_plan": "Film the real chamber-emptying action and the beginning of a second use.",
+      "risk_flags": [],
+      "human_review_required": false,
+      "scores": {
+        "product_relevance": 5,
+        "audience_fit": 3,
+        "first_frame_clarity": 4,
+        "curiosity": 3,
+        "proofability": 5,
+        "feed_native": 4,
+        "model_feasibility": 5,
+        "distinctness": 4
+      },
+      "readiness_score": 4.1,
+      "decision": "revise"
+    },
+    {
+      "id": "H10",
+      "angle": "mechanism-question",
+      "archetype": "specific question",
+      "spoken": "Where did the sofa hair go?",
+      "visual": "The cleaned strip and opened chamber appear together in one frame.",
+      "text_overlay": "Look inside",
+      "supporting_fact_ids": [
+        "F02",
+        "F05"
+      ],
+      "proof_plan": "Use a real split composition that keeps the surface and chamber visible together.",
+      "risk_flags": [],
+      "human_review_required": false,
+      "scores": {
+        "product_relevance": 4,
+        "audience_fit": 4,
+        "first_frame_clarity": 4,
+        "curiosity": 4,
+        "proofability": 5,
+        "feed_native": 4,
+        "model_feasibility": 4,
+        "distinctness": 4
+      },
+      "readiness_score": 4.1,
+      "decision": "revise"
+    },
+    {
+      "id": "H11",
+      "angle": "product-interaction",
+      "archetype": "direct demonstration",
+      "spoken": "Open, empty, continue.",
+      "visual": "Two hands open the chamber, remove the collected hair, and close it.",
+      "text_overlay": "The reset",
+      "supporting_fact_ids": [
+        "F04",
+        "F05"
+      ],
+      "proof_plan": "Film the complete real reset in one readable action sequence.",
+      "risk_flags": [],
+      "human_review_required": false,
+      "scores": {
+        "product_relevance": 5,
+        "audience_fit": 3,
+        "first_frame_clarity": 5,
+        "curiosity": 2,
+        "proofability": 5,
+        "feed_native": 4,
+        "model_feasibility": 5,
+        "distinctness": 4
+      },
+      "readiness_score": 4.1,
+      "decision": "revise"
+    },
+    {
+      "id": "H12",
+      "angle": "proof-order",
+      "archetype": "result-first reveal",
+      "spoken": "See the result before the tool.",
+      "visual": "Actual collected loose hair appears first, then the camera widens to the open chamber.",
+      "text_overlay": "Proof first",
+      "supporting_fact_ids": [
+        "F02",
+        "F05"
+      ],
+      "proof_plan": "Open on the real collected material and reveal the real product in the same take.",
+      "risk_flags": [],
+      "human_review_required": false,
+      "scores": {
+        "product_relevance": 4,
+        "audience_fit": 3,
+        "first_frame_clarity": 4,
+        "curiosity": 5,
+        "proofability": 5,
+        "feed_native": 4,
+        "model_feasibility": 4,
+        "distinctness": 5
+      },
+      "readiness_score": 4.2,
+      "decision": "revise"
+    }
+  ],
+  "production_packs": [
+    {
+      "id": "P01",
+      "hook_id": "H01",
+      "duration_seconds": 15,
+      "timeline": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 3,
+          "visual": "Real macro footage shows one continuous pass on a dark woven cushion.",
+          "audio": "This cushion only looks clean.",
+          "text_overlay": "The hidden layer"
+        },
+        {
+          "start_seconds": 3,
+          "end_seconds": 8,
+          "visual": "Camera stays close as visible loose hair gathers at the tool edge.",
+          "audio": "The surface hid more loose hair than I noticed.",
+          "text_overlay": ""
+        },
+        {
+          "start_seconds": 8,
+          "end_seconds": 12,
+          "visual": "Open the real chamber and show the actual collected hair.",
+          "audio": "No extra claim; use natural handling sound.",
+          "text_overlay": ""
+        },
+        {
+          "start_seconds": 12,
+          "end_seconds": 15,
+          "visual": "Return to the actual cushion and product.",
+          "audio": "See how it works on your fabric.",
+          "text_overlay": "See the tool"
+        }
+      ],
+      "cta": "See how it works on your fabric.",
+      "content_file": "production/p01.md",
+      "generic_video_prompt": "Create a 15-second 9:16 creator-style commerce video using the supplied product reference. Begin on real macro footage of a dark woven cushion as one continuous pass reveals visible loose pet hair. Keep the camera handheld but stable, use natural window light, and cut to a close view of the chamber opening. Preserve the product shape and material. Add spoken audio but no generated captions, prices, logos, or performance claims.",
+      "seedance_prompt": "15秒，9:16，@图片1为产品外观参考，真实商品演示质感。0-3秒：深色编织布艺坐垫微距特写，手持产品一次连续划过，松散宠物毛在工具边缘聚拢，口播“This cushion only looks clean.”；3-8秒：手持微距跟拍工具移动，保持产品外形与@图片1一致；8-12秒：打开收集仓，展示真实拍摄的收集物，生成镜头只用于动作衔接；12-15秒：回到真实坐垫和产品，镜头轻微拉远。自然窗光，原生UGC节奏。禁止生成字幕、价格、额外LOGO、水印或夸大清洁结果。",
+      "reference_assets": [
+        "@图片1: owned product reference"
+      ],
+      "generation_constraints": [
+        "Keep product shape and material consistent with @图片1.",
+        "Use owned real footage for every cleaning result.",
+        "Add text overlays in post-production."
+      ],
+      "real_footage_notes": "Use owned real footage for the opening result and chamber reveal. AI may generate context or transitions, not the proof."
+    },
+    {
+      "id": "P02",
+      "hook_id": "H03",
+      "duration_seconds": 15,
+      "timeline": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 3,
+          "visual": "Macro tracking shot follows loose hair moving toward the tool edge.",
+          "audio": "Watch where the loose hair goes.",
+          "text_overlay": "Follow the hair"
+        },
+        {
+          "start_seconds": 3,
+          "end_seconds": 7,
+          "visual": "Continue the same real pass without a cut.",
+          "audio": "Natural fabric and tool sound.",
+          "text_overlay": ""
+        },
+        {
+          "start_seconds": 7,
+          "end_seconds": 11,
+          "visual": "Open the real chamber in close-up and show the collected hair.",
+          "audio": "The chamber opens after the pass.",
+          "text_overlay": "Inside the tool"
+        },
+        {
+          "start_seconds": 11,
+          "end_seconds": 15,
+          "visual": "Close the chamber and place the tool beside the original cushion.",
+          "audio": "See the full demonstration.",
+          "text_overlay": ""
+        }
+      ],
+      "cta": "See the full demonstration.",
+      "content_file": "production/p02.md",
+      "generic_video_prompt": "Create a 15-second 9:16 product-mechanism video using the supplied reference. Open with an extreme close tracking shot of visible loose pet hair moving along dark woven fabric toward the handheld tool. Continue the same action without a hidden cut, then move to a close shot of the internal chamber opening. Use neutral daylight, precise hand movement, and restrained sound design. Preserve product geometry. Do not generate proof, text, prices, logos, or universal claims.",
+      "seedance_prompt": "15秒，9:16，@图片1为产品外观参考，机制展示型带货短视频。0-3秒：极近距离跟拍深色编织布上的松散宠物毛向工具边缘聚拢，口播“Watch where the loose hair goes.”；3-7秒：保持同一动作连续完成，不用遮挡式跳切；7-11秒：产品收集仓近景打开，真实收集结果由实拍素材替换；11-15秒：关闭收集仓，产品放回坐垫旁，镜头稳定收束。中性日光，克制的摩擦音。保持@图片1的形状、颜色和结构。禁止生成字幕、价格、额外LOGO、水印或虚假清洁效果。",
+      "reference_assets": [
+        "@图片1: owned product reference"
+      ],
+      "generation_constraints": [
+        "Keep the mechanism readable and continuous.",
+        "Replace generated proof frames with owned real footage.",
+        "Do not alter product geometry."
+      ],
+      "real_footage_notes": "Record the continuous pass and opened chamber with the real product. Use generation only for non-claiming previsualization."
+    },
+    {
+      "id": "P03",
+      "hook_id": "H06",
+      "duration_seconds": 15,
+      "timeline": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 3,
+          "visual": "An empty disposable lint roll slides out as the reusable tool enters.",
+          "audio": "No fresh lint sheet this time.",
+          "text_overlay": "Use it again"
+        },
+        {
+          "start_seconds": 3,
+          "end_seconds": 7,
+          "visual": "The real product completes a short pass on woven fabric.",
+          "audio": "Natural room and handling sound.",
+          "text_overlay": ""
+        },
+        {
+          "start_seconds": 7,
+          "end_seconds": 11,
+          "visual": "Open and empty the real chamber.",
+          "audio": "Empty the chamber.",
+          "text_overlay": "Reset"
+        },
+        {
+          "start_seconds": 11,
+          "end_seconds": 15,
+          "visual": "Close the chamber and begin a second real pass.",
+          "audio": "See the reusable routine.",
+          "text_overlay": ""
+        }
+      ],
+      "cta": "See the reusable routine.",
+      "content_file": "production/p03.md",
+      "generic_video_prompt": "Create a 15-second 9:16 routine-focused commerce video using the supplied product reference. Start with an empty disposable lint roll sliding aside while the reusable handheld tool enters frame. Cut to a real short pass on woven fabric, then a close view of the chamber opening and being emptied before a second pass begins. Use an everyday home setting, direct natural light, and creator-style pacing. Preserve the exact product design. Do not imply universal superiority or generate text, price, logos, or cleaning proof.",
+      "seedance_prompt": "15秒，9:16，@图片1为产品外观参考，日常居家UGC风格。0-3秒：空的粘毛纸卷滑出画面，@图片1对应的可重复使用工具进入画面，口播“No fresh lint sheet this time.”；3-7秒：真实产品在编织布面完成短距离清理；7-11秒：近景打开收集仓并倒出收集物；11-15秒：关闭收集仓并开始第二次使用，镜头轻微前推收束。自然日光，动作清楚，保持产品结构一致。禁止生成字幕、价格、额外LOGO、水印、竞品贬低或虚假清洁效果。",
+      "reference_assets": [
+        "@图片1: owned product reference"
+      ],
+      "generation_constraints": [
+        "Keep comparison category-level and do not show a competitor brand.",
+        "Use the real product for proof and chamber actions.",
+        "Do not add unsupported cost or waste claims."
+      ],
+      "real_footage_notes": "Use the real product for the pass, chamber-emptying action, and second use. The opening compares workflow only."
+    }
+  ],
+  "test_plan": {
+    "hypothesis": "A proof-first, mechanism-first, or reusable-routine opening will create different early-hold responses among problem-aware pet owners.",
+    "variant_hook_ids": [
+      "H01",
+      "H03",
+      "H06"
+    ],
+    "changed_variable": "first 0-3 second hook",
+    "controlled_variables": [
+      "body demonstration",
+      "CTA",
+      "duration",
+      "creator and voice",
+      "product reference",
+      "audience and placement",
+      "offer"
+    ],
+    "primary_metric": "3-second hold rate",
+    "secondary_metrics": [
+      "6-second hold rate",
+      "click-through rate"
+    ],
+    "stop_condition": "not provided",
+    "interpretation_rule": "Compare variants only after the media buyer defines minimum exposure and a stopping rule; treat the result as local to this product, audience, placement, and period."
+  },
+  "review": {
+    "unsupported_claims": [],
+    "human_review_items": [
+      "H04 requires rights confirmation for any pet or creator likeness.",
+      "H06 uses a category-level workflow comparison and requires advertising review."
+    ],
+    "limitations": [
+      "No price, offer, review, sales count, or performance metric was supplied.",
+      "The real product must provide every cleaning result and chamber proof shot.",
+      "Editorial scores describe test readiness and do not predict performance.",
+      "Current TikTok Shop policy and ad approval were not verified by this offline example."
+    ]
+  }
+}

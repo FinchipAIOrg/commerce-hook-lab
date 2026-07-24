@@ -1,0 +1,4 @@
+interface:
+  display_name: "Commerce Hook Lab"
+  short_description: "Create evidence-backed hooks and video prompts"
+  default_prompt: "Use $commerce-hook-lab to turn my product facts into testable video hooks and production-ready prompts."
